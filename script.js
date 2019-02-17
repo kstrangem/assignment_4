@@ -36,5 +36,5 @@ var speech3 = {
 };
 
 var speeches = [speech1, speech2, speech3];
-var yearDifference = speech[1].year - speech[0].year;
-console.log("Winston's speech and Ghandi's speech are" + yearDifference + "years apart");
+var yearDifference = speeches[1].year - speeches[0].year; 
+console.log("Winston's speech and Ghandi's speech are" + " " + yearDifference + " " + "years apart");
